@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inverted Poses
     { sanskrit: "Shirsasana", english: "Headstand", group: "inverted", image: "https://via.placeholder.com/200?text=Sirsasana" },
     { sanskrit: "Sarvangasana", english: "Shoulder Stand", group: "inverted", image: "https://via.placeholder.com/200?text=Sarvangasana" },
-    { sanskrit: "Halasana", english: "Plow Pose", group: "inverted", image: "https://via.placeholder.com/200?text=Halasana" },
+    { sanskrit: "Halasana", english: "Plough Pose", group: "inverted", image: "https://via.placeholder.com/200?text=Halasana" },
     { sanskrit: "Pincha Mayurasana", english: "Forearm Stand", group: "inverted", image: "https://via.placeholder.com/200?text=Pincha+Mayurasana" },
     { sanskrit: "Adho Mukha Vrksasana", english: "HandStand", group: "inverted", image: "https://via.placeholder.com/200?text=Handstand" },
     // Arm Balancing Poses
