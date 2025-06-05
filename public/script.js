@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Standing Poses
     { sanskrit: "Virabhadrasana I", english: "Warrior I", group: "standing", image: "https://via.placeholder.com/200?text=Virabhadrasana+I" },
     { sanskrit: "Virabhadrasana II", english: "Warrior II", group: "standing", image: "https://via.placeholder.com/200?text=Virabhadrasana+II" },
-    { sanskrit: "Trikonasana", english: "Triangle Pose", group: "standing", image: "https://via.placeholder.com/200?text=Trikonasana" },
+    { sanskrit: "Utthita Trikonasana", english: "Triangle Pose", group: "standing", image: "https://via.placeholder.com/200?text=Trikonasana" },
     { sanskrit: "Parivrtta Trikonasana", english: "Revolving Triangle", group: "standing", image: "https://via.placeholder.com/200?text=Parivrtta+Trikonasana" },
     { sanskrit: "Utthita Parsvakonasana", english: "Extended Side Angle", group: "standing", image: "https://via.placeholder.com/200?text=Utthita+Parsvakonasana" },
     { sanskrit: "Utkatasana", english: "Chair Pose", group: "standing", image: "https://via.placeholder.com/200?text=Utkatasana" },
