@@ -7,44 +7,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<button id="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
-    <div class="container">
-        <div class="sidebar">
-            <h2>Pose Groups</h2>
-            <ul id="group-menu">
-                <li data-group="all" class="active">All Poses</li>
-                <li data-group="sun-salutation">Sun Salutations</li>
-                <li data-group="standing">Standing Poses</li>
-                <li data-group="sitting">Sitting Poses</li>
-                <li data-group="inverted">Inverted Poses</li>
-                <li data-group="arm-balancing">Arm Balancing Poses</li>
-                <li data-group="leg-balancing">Leg Balancing Poses</li>
-                <li data-group="supine">Supine Poses</li>
-                <li data-group="prone">Prone Poses</li>
-            </ul>
-        </div>
-        <div class="main">
-            <div id="flashcard" onclick="flipCard()">
-                <!--<img id="pose-image" src="" alt="Pose Image">-->
-                <div id="pose-name">Click to Start</div>
-            </div>
-            <div id="controls">
-                <select id="revision-mode" onchange="changeMode()">
-                    <option value="sanskrit-to-english">Sanskrit to English</option>
-                    <option value="english-to-sanskrit">English to Sanskrit</option>
-                </select>
-                <div>
-                    <input type="checkbox" id="random-mode" onchange="toggleRandomMode()">
-                    <label for="random-mode">Random Mode</label>
-                </div>
-                <div id="buttons">
-                    <button onclick="prevCard()">Previous</button>
-                    <button onclick="nextCard()">Next</button>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <button id="menu-toggle">☰ Menu</button>
+    <div class="sidebar hidden">
+      <h2>Pose Groups</h2>
+      <ul id="group-menu">
+        <li data-group="all" class="active">All Poses</li>
+        <li data-group="sun-salutation">Sun Salutations</li>
+        <li data-group="standing">Standing Poses</li>
+        <li data-group="sitting">Sitting Poses</li>
+        <li data-group="inverted">Inverted Poses</li>
+        <li data-group="arm-balancing">Arm Balancing Poses</li>
+        <li data-group="leg-balancing">Leg Balancing Poses</li>
+        <li data-group="supine">Supine Poses</li>
+        <li data-group="prone">Prone Poses</li>
+      </ul>
     </div>
-
+    <div class="main">
+      <div id="flashcard">
+        <!--<img id="pose-image" src="" alt="Pose Image">-->
+        <div id="pose-name">Select a pose group to begin</div>
+      </div>
+      <div id="controls">
+        <button id="start-button">Click to Start</button>
+        <select id="revision-mode">
+          <option value="sanskrit-to-english">Sanskrit to English</option>
+          <option value="english-to-sanskrit">English to Sanskrit</option>
+        </select>
+        <div>
+          <input type="checkbox" id="random-mode">
+          <label for="random-mode">Random Mode</label>
+        </div>
+        <div id="buttons">
+          <button id="previous-button">Previous</button>
+          <button id="next-button">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
