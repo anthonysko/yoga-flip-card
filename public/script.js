@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { sanskrit: "Pincha Mayurasana", english: "Forearm Stand", group: "inverted", image: "https://via.placeholder.com/200?text=Pincha+Mayurasana" },
     { sanskrit: "Adho Mukha Vrksasana", english: "HandStand", group: "inverted", image: "https://via.placeholder.com/200?text=Handstand" },
     // Arm Balancing Poses
-    { sanskrit: "Utpluthih Padmasana", english: "Elevated Lotus Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Utpluthih+Padmasana" },
+    { sanskrit: "Utthita Padmasana / Tolasana", english: "Elevated Lotus Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Utpluthih+Padmasana" },
     { sanskrit: "Vasisthasana", english: "Side Plank Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Vasisthasana" },
     { sanskrit: "Visvamitrasana", english: "Flying Warrior", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Visvamitrasana" },
     { sanskrit: "Bakasana", english: "Crow Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Bakasana" },
