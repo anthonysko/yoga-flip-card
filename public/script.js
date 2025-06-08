@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("pose-name").textContent = poseName;
     const poseImage = document.getElementById("pose-image");
     if (pose.image) {
-      poseImage.src = pose.image;
+      //poseImage.src = pose.image;
       poseImage.style.display = "block";
     } else {
       poseImage.style.display = "none";
