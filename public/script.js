@@ -61,10 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
     { sanskrit: "Utthita Padmasana / Tolasana", english: "Elevated Lotus Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Utpluthih+Padmasana" },
     { sanskrit: "Vasisthasana", english: "Side Plank Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Vasisthasana" },
     { sanskrit: "Visvamitrasana", english: "Flying Warrior", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Visvamitrasana" },
-    { sanskrit: "Bakasana", english: "Crow Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Bakasana" },
-    { sanskrit: "Parsva Bakasana", english: "Side Crow", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Parsva+Bakasana" },
+    { sanskrit: "Kakasana", english: "Crow Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Bakasana" },
+    { sanskrit: "Parsva Kakasana", english: "Side Crow", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Parsva+Bakasana" },
     { sanskrit: "Eka Pada Koundinyasana I/II", english: "Scissors Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Kukkutasana" },
     { sanskrit: "Astavakrasana", english: "Eight Angle Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Astavakrasana" },
+    { sanskrit: "Bakasana", english: "Crane Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Astavakrasana" },
+    { sanskrit: "Parsva Bakasana", english: "Side Crane Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Astavakrasana" },
     { sanskrit: "Tittibhasana", english: "Firefly Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Tittibhasana" },
     // Leg Balancing Poses
     { sanskrit: "Vrksasana", english: "Tree Pose", group: "leg-balancing", image: "https://via.placeholder.com/200?text=Vrksasana" },
@@ -106,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const poseImage = document.getElementById("pose-image");
     if (pose.image) {
       //poseImage.src = pose.image;
-      poseImage.style.display = "block";
+      //poseImage.style.display = "block";
     } else {
       poseImage.style.display = "none";
     }
