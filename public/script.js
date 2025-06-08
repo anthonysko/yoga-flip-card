@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const poses = [
     // Sun Salutation Poses
     { sanskrit: "Tadasana / Samasthiti", english: "Mountain Pose", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Tadasana" },
-    { sanskrit: "Hasta Uttanasana", english: "Standard backward Bend", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Hasta+Uttanasana" },
+    { sanskrit: "Hasta Uttanasana", english: "Standing backward Bend", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Hasta+Uttanasana" },
     { sanskrit: "Uttanasana", english: "Standing Forward Bend", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Uttanasana" },
     { sanskrit: "Ardha Uttanasana", english: "Half Standing Forward Bend", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Ardha+Uttanasana" },
     { sanskrit: "Anjaneyasana", english: "Crescent Lunge", group: "sun-salutation", image: "https://via.placeholder.com/200?text=Anjaneyasana" },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { sanskrit: "Prasarita Padottanasana", english: "Wide Leg Forward Bend Pose", group: "standing", image: "https://via.placeholder.com/200?text=Prasarita+Padottanasana" },
     { sanskrit: "Utthita Hasta Padangusthasana", english: "Standing Hand to Toe Pose", group: "standing", image: "https://via.placeholder.com/200?text=Utthita+Hasta+Padangusthasana" },
     { sanskrit: "Parsvottanasana", english: "Pyramid Pose", group: "standing", image: "https://via.placeholder.com/200?text=Parsvottanasana" },
-    { sanskrit: "Ardha Chandrasana", english: "Standing Side Bend", group: "standing", image: "https://via.placeholder.com/200?text=Ardha+Chandrasana" },
+    { sanskrit: "Chandrasana", english: "Standing Side Bend / Cresent moon", group: "standing", image: "https://via.placeholder.com/200?text=Ardha+Chandrasana" },
     // Sitting Poses
     { sanskrit: "Padmasana", english: "Lotus Pose", group: "sitting", image: "https://via.placeholder.com/200?text=Padmasana" },
     { sanskrit: "Paschimottanasana", english: "Seated Forward Bend Pose", group: "sitting", image: "https://via.placeholder.com/200?text=Paschimottanasana" },
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { sanskrit: "Visvamitrasana", english: "Flying Warrior", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Visvamitrasana" },
     { sanskrit: "Bakasana", english: "Crow Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Bakasana" },
     { sanskrit: "Parsva Bakasana", english: "Side Crow", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Parsva+Bakasana" },
-    { sanskrit: "Kukkutasana", english: "Scissors Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Kukkutasana" },
+    { sanskrit: "Eka Pada Koundinyasana I/II", english: "Scissors Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Kukkutasana" },
     { sanskrit: "Astavakrasana", english: "Eight Angle Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Astavakrasana" },
     { sanskrit: "Tittibhasana", english: "Firefly Pose", group: "arm-balancing", image: "https://via.placeholder.com/200?text=Tittibhasana" },
     // Leg Balancing Poses
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { sanskrit: "Savasana", english: "Corpse Pose", group: "supine", image: "https://via.placeholder.com/200?text=Savasana" },
     { sanskrit: "Supta Padangusthasana", english: "Reclining Hand-to-Big-Toe Pose", group: "supine", image: "https://via.placeholder.com/200?text=Supta+Padangusthasana" },
     { sanskrit: "Ananda Balasana", english: "Happy Baby Pose", group: "supine", image: "https://via.placeholder.com/200?text=Ananda+Balasana" },
-    { sanskrit: "Setu Bandhasana", english: "Bridge Pose", group: "supine", image: "https://via.placeholder.com/200?text=Setu+Bandhasana" },
+    { sanskrit: "Setu Bandha Sarvangasana", english: "Bridge Pose", group: "supine", image: "https://via.placeholder.com/200?text=Setu+Bandhasana" },
     { sanskrit: "Matsyasana", english: "Fish Pose", group: "supine", image: "https://via.placeholder.com/200?text=Matsyasana" },
     { sanskrit: "Supta Virasana", english: "Resting Hero Pose", group: "supine", image: "https://via.placeholder.com/200?text=Supta+Virasana" },
     { sanskrit: "Pavanamuktasana", english: "Wind Release Pose", group: "supine", image: "https://via.placeholder.com/200?text=Pavanamuktasana" },
